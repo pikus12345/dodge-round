@@ -717,8 +717,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 256
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 0}
-  m_sharedMaterial: {fileID: 0}
+  m_fontAsset: {fileID: 11400000, guid: 35bc459f2908f874b991becc0232dbad, type: 2}
+  m_sharedMaterial: {fileID: 6217858422920451950, guid: 35bc459f2908f874b991becc0232dbad, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -955,6 +955,94 @@ MonoBehaviour:
   blendDistance: 0
   weight: 1
   priority: 0
+--- !u!1 &756628467
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 756628469}
+  - component: {fileID: 756628468}
+  m_Layer: 0
+  m_Name: Yandex
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &756628468
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 756628467}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4d388f679732e6e4d9962ca0842b90d6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &756628469
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 756628467}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 7
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &853556816
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 853556817}
+  - component: {fileID: 853556818}
+  m_Layer: 0
+  m_Name: LanguageManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &853556817
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 853556816}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 8
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &853556818
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 853556816}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dd2f5079b3866654994cee5bd912ccaf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &918722187
 GameObject:
   m_ObjectHideFlags: 0
@@ -1389,6 +1477,7 @@ GameObject:
   - component: {fileID: 1997595192}
   - component: {fileID: 1997595194}
   - component: {fileID: 1997595193}
+  - component: {fileID: 1997595195}
   m_Layer: 5
   m_Name: Title
   m_TagString: Untagged
@@ -1437,7 +1526,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\u0423\u043A\u043B\u043E\u043D\u044F\u0439\u0441\u044F!"
+  m_text: "Ka\xE7! Ka\xE7!"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 35bc459f2908f874b991becc0232dbad, type: 2}
   m_sharedMaterial: {fileID: 6217858422920451950, guid: 35bc459f2908f874b991becc0232dbad, type: 2}
@@ -1464,7 +1553,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 53.9
+  m_fontSize: 42.95
   m_fontSizeBase: 48
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -1514,6 +1603,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1997595191}
   m_CullTransparentMesh: 1
+--- !u!114 &1997595195
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1997595191}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23e9c8e29f4537941a077cc713d10b29, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RuText: "\u0423\u043A\u043B\u043E\u043D\u044F\u0439\u0441\u044F!"
+  EnText: Dodge Round
+  TrText: "Ka\xE7! Ka\xE7!"
 --- !u!1 &2005972625
 GameObject:
   m_ObjectHideFlags: 0
@@ -1525,6 +1629,7 @@ GameObject:
   - component: {fileID: 2005972626}
   - component: {fileID: 2005972628}
   - component: {fileID: 2005972627}
+  - component: {fileID: 2005972629}
   m_Layer: 5
   m_Name: Subtitle
   m_TagString: Untagged
@@ -1572,7 +1677,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\u043E\u0442 syntez"
+  m_text: "syntez taraf\u0131ndan yap\u0131ld\u0131"
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 35bc459f2908f874b991becc0232dbad, type: 2}
   m_sharedMaterial: {fileID: 6217858422920451950, guid: 35bc459f2908f874b991becc0232dbad, type: 2}
@@ -1649,6 +1754,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2005972625}
   m_CullTransparentMesh: 1
+--- !u!114 &2005972629
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2005972625}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 23e9c8e29f4537941a077cc713d10b29, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  RuText: "\u043E\u0442 syntez"
+  EnText: by syntez
+  TrText: "syntez taraf\u0131ndan yap\u0131ld\u0131"
 --- !u!1 &2076346313
 GameObject:
   m_ObjectHideFlags: 0
@@ -1717,8 +1837,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: 256
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 0}
-  m_sharedMaterial: {fileID: 0}
+  m_fontAsset: {fileID: 11400000, guid: 35bc459f2908f874b991becc0232dbad, type: 2}
+  m_sharedMaterial: {fileID: 6217858422920451950, guid: 35bc459f2908f874b991becc0232dbad, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
